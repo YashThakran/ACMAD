@@ -4,7 +4,7 @@ import torch
 
 model = DilatedNet()
 
-model.load_state_dict(torch.load("../saved_ckpt/ckpt.pt",map_location=torch.device('cpu')))
+model.load_state_dict(torch.load("../saved_ckpt/ckpt.pt",map_location=torch.device('cuda')))
 
 softmax = nn.Softmax(dim=1)
 criterion = nn.CrossEntropyLoss()
@@ -13,7 +13,7 @@ test_list=["test_all","test_hindi","test_bengali","test_bhojpuri","test_gujarati
 best_score_dict = {k: v for k, v in zip(test_list, [0]*len(test_list))}
 
 with torch.no_grad():        
-        model.to(torch.device("cpu"))
+        model.to(torch.device("cuda"))
         model.eval()
 
         for i in test_list:
@@ -24,7 +24,7 @@ with torch.no_grad():
                 
                 vsample += len(vdata)
                 
-                vpreds = model(vdata.to(torch.device("cpu")))
+                vpreds = model(vdata.to(torch.device("cuda")))
                 vloss = criterion(vpreds, vlabel)
                 
                 vcorrect += torch.eq(softmax(vpreds).argmax(dim=1), vlabel.argmax(dim=1)).sum().item()
