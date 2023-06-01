@@ -12,8 +12,8 @@
 <p>Acoustic Cues for Multilingual Abuse Detection</p>
 </h2>
 
-Code to acompanying Interspeech-23 Paper:
-Investigating Acoustic Cues for Multilingual Abuse Detection
+Code to acompanying Interspeech 2023 Paper :
+"Investigating Acoustic Cues for Multilingual Abuse Detection"
 
 ## Feature Extraction
 
@@ -26,6 +26,6 @@ Investigating Acoustic Cues for Multilingual Abuse Detection
 
 ## Contact
 
-Yash Thakran <yash20269@iiitd.ac.in>
+Yash Thakran (<yash20269@iiitd.ac.in>)
 
-Dr. Vinayak Abrol <abrol@iiitd.ac.in>
+Dr. Vinayak Abrol (<abrol@iiitd.ac.in>)
