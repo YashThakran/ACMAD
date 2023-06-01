@@ -28,4 +28,4 @@ Investigating Acoustic Cues for Multilingual Abuse Detection
 
 Yash Thakran <yash20269@iiitd.ac.in>
 
-Vinayak Abrol <abrol@iiitd.ac.in>
+Dr. Vinayak Abrol <abrol@iiitd.ac.in>
