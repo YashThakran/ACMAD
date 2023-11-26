@@ -27,5 +27,3 @@ Code to acompanying Interspeech 2023 Paper :
 ## Contact
 
 Yash Thakran (<yash20269@iiitd.ac.in>)
-
-Dr. Vinayak Abrol (<abrol@iiitd.ac.in>)
