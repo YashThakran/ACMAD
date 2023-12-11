@@ -6,7 +6,6 @@ import torch
 import torch.nn as nn
 
 
-
 device = torch.device('cuda')
     
 def init_weights(m):
