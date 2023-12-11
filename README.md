@@ -12,8 +12,7 @@
 <p>Acoustic Cues for Multilingual Abuse Detection</p>
 </h2>
 
-Code to acompanying Interspeech 2023 Paper :
-"Investigating Acoustic Cues for Multilingual Abuse Detection"
+
 
 ## Feature Extraction
 
